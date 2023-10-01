@@ -33,7 +33,6 @@
 
 body{
   background: var(--bg-url)  no-repeat top center/cover;
-  height: 100vh;
 }
 
 body * {
@@ -56,6 +55,8 @@ body * {
 
 #profile img {
   width: 112px;
+  height: 112px;
+  border-radius: 100%;
 }
 
 #profile p {

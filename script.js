@@ -13,10 +13,10 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //Se tiver lightMode adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/foto.jpg")
   } else {
     //Se não tiver em lightMode manter a imagem raiz
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/foto2.png")
   }
   if(html.classList.contains("light")) {
     img.setAttribute("alt", "foto de perfil do light mode")
